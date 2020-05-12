@@ -9,7 +9,7 @@
     "url": "git+//https://github.com/Roman-Gulamov/Rapture"
   },
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.1",
     "popper.js": "^1.14.7"
   },
   "devDependencies": {

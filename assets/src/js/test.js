@@ -1,5 +1,4 @@
 jQuery(document).ready(function($) { 
-    $('p').css('color', 'red');
-
+    $('p').css('color', 'green');
 
 });

@@ -20,7 +20,7 @@
 ## В проекте используется и применяется:
 1. `Flexbox`
 2. `jQuery`
-3. `HTML`
+3. `HTML5`
 4. `SASS`
-5. `Gulp`
-6. `Materialize`
+5. `Gulp 4`
+6. `Materialize CSS`

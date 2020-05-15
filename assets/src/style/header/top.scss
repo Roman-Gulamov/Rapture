@@ -1,0 +1,66 @@
+.header {
+&__top {
+    @include flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+
+&__menu {
+}
+
+&__logo {
+    font-size: 18px;
+    color: $White;
+    font-weight: bold;
+    margin-right: 30px;
+
+& span {
+    font-family: $ExtraLightItalic;
+    font-weight: normal;
+}
+}
+}
+
+.nav {
+    @include inline-flex;
+    justify-content: space-between;
+    width: 275px;
+    font-size: 16px;
+    background-color: transparent;
+    box-shadow: none;
+
+&__item {
+    color: $Gray;
+    color: rgba($Gray, 0.7);
+    font-weight: bold;
+    transition: color 0.5s ease;
+
+&:hover {
+    color: rgba($Gray, 1);
+    text-decoration: underline;
+}
+}
+}
+
+.autorisation {
+    @include flex;
+
+&__login {
+    font-size: 11px;
+    background-color: transparent;
+    box-shadow: none;
+    border: 1px solid rgba($White, 0.2);
+    padding: 0 23px;
+}
+
+&__ready {
+    color: rgba($Black, 0.7);
+    font-size: 11px;
+    margin-left: 20px;
+    padding: 0 26px;
+    background-color: rgba($White, 0.9);
+}
+}
+
+

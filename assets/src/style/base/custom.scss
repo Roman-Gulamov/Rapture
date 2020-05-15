@@ -1,0 +1,41 @@
+//! COLORS //
+$Black: rgba(0, 0, 0, 1);
+$Blue: rgba(1, 212, 243, 1);
+$Green: rgba(18, 179, 103, 1);
+$Gray: rgba(110, 110, 110, 1);
+$Orange: rgba(230, 118, 36,1);
+$Red: rgba(255, 0, 0, 1);
+$Yellow: rgba(255, 255, 0, 1);
+$White: rgba(255,255,255, 1);
+//! -COLORS- //
+
+//! FONTS //
+$light: "Raleway Light";
+$ExtraLightItalic: "Raleway ExtraLightItalic";
+$Medium: "Raleway Medium";
+//! -FONTS- //
+
+//! MIXINS //
+@mixin flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+@mixin inline-flex {
+    display: inline-flex;
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+}
+
+@mixin transform($deg) {
+    -webkit-transform: $deg;
+	-o-transform: $deg;
+	-ms-transform: $deg;
+	transform: $deg;
+}
+//! -MIXINS- //
+

@@ -1,1 +1,6 @@
-@import "header.scss";
+@import "./base/custom.scss";
+@import "./base/fonts.scss";
+@import "./base/preparation.scss";
+@import "./header/header.scss";
+@import "./header/top.scss";
+@import "./header/middle.scss";

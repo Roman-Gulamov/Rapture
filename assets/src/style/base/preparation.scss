@@ -4,13 +4,15 @@
 	font-family: $light;
 }
 
-.container { 
-	width: 79%;
+.border__bottom {
+	border-bottom: 1px solid rgba($Black, 0.1);
 }
+
 .btn {
 	border-radius: 30px;
 	font-family: $Medium;
 	transition: all 0.6s ease;
+	box-shadow: none;
 
 &:active {
     @include transform(scale(0.88));
@@ -24,6 +26,17 @@
 &:focus {
 	color: $Black;
 	background-color: $White;
+}
+}
+
+.container { 
+	width: 79%;
+}
+
+input {
+
+&:focus {
+	outline: none;
 }
 }
 

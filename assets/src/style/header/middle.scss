@@ -28,8 +28,9 @@
 
 &__text {
     margin-top: 50px;
-    font-size: 23px;
-    color: $White !important;
+    font-size: 26px;
+    line-height: 36px;
+    color: rgba($White, 0.8) !important;
 }
 
 &__mouse {

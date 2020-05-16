@@ -2,11 +2,8 @@
 &__top {
     @include flex;
     flex-wrap: wrap;
-    padding-top: 40px;
+    padding-top: 25px;
     justify-content: space-between;
-}
-
-&__menu {
 }
 
 &__logo {

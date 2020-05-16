@@ -33,18 +33,35 @@
 }
 
 &__mouse {
+    position: relative;
     width: 20px;
     height: 36px;
-    border: 2px solid $Gray;
+    border: 2px solid rgba($Gray, 0.3);
     border-radius: 15px;
     text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    transition: all 0.5s ease;
 
-&::before {
-    content: "";
+&:hover {
+    border: 2px solid rgba($Gray, 1);
+}
+
+&:active {
+    @include transform(scale(0.7));
+    border: 2px solid rgba($Gray, 1);
+}
+
+
+&::after {
+    content: "\00a0";
+    position: absolute;
     background-color: $White;
-    padding-top: 5px;
+    color: white;
     width: 2px;
-    height: 8px;
+    height: 7px;
+    top: 15%;
+    left: 42%;
 }
 }
 

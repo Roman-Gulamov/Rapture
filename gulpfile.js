@@ -25,12 +25,6 @@ var path = {
     clean: './assets/build/*'
 };
 
-var config = {
-    server: {
-        baseDir: './assets/build'
-    },
-    notify: false
-};
 
 var gulp = require('gulp'),
     webserver = require('browser-sync'), // сервер для работы и автоматического обновления страниц
@@ -47,12 +41,6 @@ var gulp = require('gulp'),
     pngquant = require('imagemin-pngquant'), // плагин для сжатия png
     rimraf = require('gulp-rimraf'), // плагин для удаления файлов и каталогов
     rename = require('gulp-rename');
-
-
-// запуск сервера
-gulp.task('webserver', function () {
-    webserver(config);
-});
 
 // сбор html
 gulp.task('html:build', function () {
@@ -150,5 +138,5 @@ gulp.task('watch', function () {
 // задача по умолчанию
 gulp.task('default', gulp.series(
     'build',
-    gulp.parallel('webserver','watch')      
+    gulp.task('watch')      
 ));

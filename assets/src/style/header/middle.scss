@@ -2,16 +2,16 @@
 &__middle {
     @include flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
 &__title {
-    font-size: 62px;
+    font-size: 3.9em; //62px
     color: $White;
 }
 
 &__button {
-    margin-top: 45px;
+    margin-top: 60px;
 }
 
 &__questions {
@@ -27,8 +27,8 @@
 }
 
 &__text {
-    margin-top: 50px;
-    font-size: 26px;
+    margin-top: 65px;
+    font-size: 1.6em; //26px
     line-height: 36px;
     color: rgba($White, 0.8) !important;
 }
@@ -41,7 +41,7 @@
     border-radius: 15px;
     text-align: center;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 45px;
     transition: all 0.5s ease;
 
 &:hover {

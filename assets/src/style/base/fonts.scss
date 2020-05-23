@@ -1,5 +1,11 @@
 //! FONTS //
 @font-face {
+    font-family: "Raleway Bold";
+	src: url('../../../assets/src/fonts/Raleway/Raleway-Bold.ttf') format('ttf'),
+		url('../../../assets/src/fonts/Raleway/raleway-bold.woff') format('woff'),
+}
+
+@font-face {
     font-family: "Raleway ExtraLightItalic";
 	src: url('../../../assets/src/fonts/Raleway/Raleway-Italic.ttf') format('ttf'),
 		url('../../../assets/src/fonts/Raleway/raleway-extralightitalic-webfont.woff2') format('woff2'),

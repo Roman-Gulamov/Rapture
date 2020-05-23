@@ -1,69 +1,106 @@
 .submenu {
+	border-bottom: 1px solid rgba($Black, 0.1);
+    height: 53px;
+    
+@media all and (max-width: 1043px) {
+    height: 100px;
+}
+
+&__wrapper {
     @include flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 40px;
+}
 
-&__nav {
+& ul {
     @include inline-flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 355px;
-
-& ul {
     color: $Black;
+    margin-bottom: 30px;
+
+@media all and (max-width: 931px) {
+    margin: auto;
+    margin-bottom: 15px;
+}
 }
 
 & li {
     font-family: $Regular;
+    margin-right: 30px;
     cursor: pointer;
+    font-size: 0.94em; //14px
     color: rgba($Black, 0.7);
     font-weight: bold;
-    transition: all 0.4s ease;
+    transition: color 0.4s ease;
 
 &:hover {
     color: rgba($Black, 1);
 }
-} // <ul>
-} // .submenu__nav
 }
+} // .submenu
 
 
 .subscribe {
-    @include flex;
+    display: inline-block;
+    vertical-align: top;
     position: relative;
+    margin-bottom: 10px;
 
-&__title {
-    font-size: 14px;
-    font-family: $Medium;
-    color: rgba($Black, 0.8);
-    font-weight: bold;
-    margin-right: 20px;
+@media all and (max-width: 931px) {
+    margin: auto;
+}
+
+&__text {
+    position: absolute;
+    right: 359px;
+    width: 100px;
+    font-family: $Bold;
+    font-size: 0.94em; //14px
+    color: $Black;
+
+@media all and (max-width: 1022px) {
+    display: none;
+}
 }
 
 &__mail {
-    position: relative;
-    bottom: 35%;
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    width: 370px;
+    height: 50px;
     font-family: $Medium;
     border: 1px solid rgba($Black, 0.2);
     border-radius: 35px;
-    padding: 15px 190px 15px 25px;
-    margin-bottom: -10px;
+    padding-left: 25px;
+
+@media all and (max-width: 931px) {
+    position: static;
+    margin-top: 10px;
+}
 
 &::placeholder {
     font-size: 14px;
-    color: rgba($Black, 0.6);
+    color: rgba($Black, 0.4);
     overflow: visible;
 }
 }
 
 &__button {
-    color: rgba($White, 0.85);
+    display: inline-block;
     position: absolute;
-    bottom: 28%;
-    right: 1%;
+    top: -12px;
+    right: -12px;
+    color: rgba($White, 0.85);
     padding: 0px 25px;
     font-size: 11px;
     background-color: $Black;
+
+@media all and (max-width: 931px) {
+    top: 17px;
+    right: 5px;
+}
 }
 }

@@ -1,0 +1,80 @@
+.components {
+    margin-top: 100px;
+
+&__overhead {
+    font-family: $Medium;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 30px;
+
+}
+
+&__title {
+    font-size: 42px;
+    margin-bottom: 60px;
+}
+
+&__card {
+    height: 540px;
+    width: 400px;
+    margin: auto;
+    border-radius: 11px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+&__img {
+    margin-top: 60px;
+}
+
+&__text {
+    line-height: 23px;
+    color: rgba($Black, 0.6);
+    font-size: 16px;
+    margin: 20px 23px auto 23px !important;
+}
+
+&__btn {
+    background-color: $LightGreen;
+    color: rgba($Black, 0.7);
+    letter-spacing: 1px;
+    font-family: $Medium;
+    font-size: 12px;
+
+&:hover {
+    color: $White;
+	background-color: $LightGreen;
+}
+
+&:active {
+    color: $White;
+	background-color: $LightGreen;
+}
+
+&:focus {
+    color: $White;
+	background-color: $LightGreen;
+}
+}
+
+&__link {
+    font-family: $Medium;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: rgba($Black, 0.8)  !important;
+    text-decoration: underline;
+
+&:hover {
+    color: $LightGreen !important;
+}
+}
+}
+
+.card-content span {
+    font-family: $Regular;
+    font-size: 22px;
+}
+

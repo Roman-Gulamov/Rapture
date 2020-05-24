@@ -1,16 +1,12 @@
 .submenu {
-	border-bottom: 1px solid rgba($Black, 0.1);
     height: 53px;
-    
-@media all and (max-width: 1043px) {
-    height: 100px;
-}
-
-&__wrapper {
     @include flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 40px;
+    
+@media all and (max-width: 1043px) {
+    height: 100px;
 }
 
 & ul {

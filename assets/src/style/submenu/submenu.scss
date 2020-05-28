@@ -31,9 +31,9 @@
     font-weight: bold;
     transition: color 0.4s ease;
 
-&:hover {
-    color: rgba($Black, 1);
-}
+    &:hover {
+        color: rgba($Black, 1);
+    }
 }
 } // .submenu
 
@@ -77,11 +77,11 @@
     margin-top: 10px;
 }
 
-&::placeholder {
-    font-size: 14px;
-    color: rgba($Black, 0.4);
-    overflow: visible;
-}
+    &::placeholder {
+        font-size: 14px;
+        color: rgba($Black, 0.4);
+        overflow: visible;
+    }
 }
 
 &__button {

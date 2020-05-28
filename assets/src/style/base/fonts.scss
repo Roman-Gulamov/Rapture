@@ -36,6 +36,12 @@
 }
 
 @font-face {
+    font-family: "Raleway Semibold";
+	src: url('../../../assets/src/fonts/Raleway/Raleway-SemiBold.ttf') format('ttf'),
+		url('../../../assets/src/fonts/Raleway/raleway-SemiBold.woff') format('woff'),
+}
+
+@font-face {
 	font-family: 'Material Icons';
 	font-style: normal;
 	font-weight: 400;

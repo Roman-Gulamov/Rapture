@@ -14,4 +14,47 @@
     margin-top: 20px;
     font-size: 18px;
 }
+
+&__img {
+    width: 600px !important;
+    height: 300px;
+}
+
+&__video {
+    position: absolute;
+    right: 27%;
+    top: 11%;
+    width: 45.4%;
+    height: 57.3%;
+}
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 55px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.movePrevCarousel {
+    position: absolute;
+    color: rgba($Black, 0.2);
+    top: 36%;
+    left: 15%;
+}
+
+.moveNextCarousel {
+    position: absolute;
+    color: rgba($Black, 0.2);
+    top: 36%;
+    right: 15%;
 }

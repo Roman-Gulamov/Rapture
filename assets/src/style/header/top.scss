@@ -37,10 +37,10 @@
     font-weight: bold;
     transition: color 0.5s ease;
 
-&:hover {
-    color: rgba($Gray, 1);
-    text-decoration: underline;
-}
+    &:hover {
+        color: rgba($Gray, 1);
+        text-decoration: underline;
+    }
 }
 }
 

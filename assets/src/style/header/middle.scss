@@ -21,9 +21,9 @@
     text-decoration: underline;
     transition: color 0.4s ease;
 
-&:hover {
-    color: rgba($Gray, 1);
-}
+    &:hover {
+        color: rgba($Gray, 1);
+    }
 }
 
 &__text {
@@ -44,26 +44,26 @@
     margin-top: 45px;
     transition: all 0.5s ease;
 
-&:hover {
-    border: 2px solid rgba($Gray, 1);
-}
+    &:hover {
+        border: 2px solid rgba($Gray, 1);
+    }
 
-&:active {
-    @include transform(scale(0.7));
-    border: 2px solid rgba($Gray, 1);
-}
+    &:active {
+        @include transform(scale(0.7));
+        border: 2px solid rgba($Gray, 1);
+    }
 
 
-&::after {
-    content: "\00a0";
-    position: absolute;
-    background-color: $White;
-    color: $White;
-    width: 2px;
-    height: 7px;
-    top: 15%;
-    left: 42%;
-}
+    &::after {
+        content: "\00a0";
+        position: absolute;
+        background-color: $White;
+        color: $White;
+        width: 2px;
+        height: 7px;
+        top: 15%;
+        left: 42%;
+    }
 }
 
 }

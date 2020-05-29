@@ -16,16 +16,18 @@
 }
 
 &__img {
-    width: 600px !important;
-    height: 300px;
+    object-fit: cover;
+    max-width: 600px!important;
+    max-height: 300px;
+    transform: none !important;
 }
 
 &__video {
     position: absolute;
     right: 27%;
-    top: 11%;
-    width: 45.4%;
-    height: 57.3%;
+    top: 7%;
+    min-width: 45.4%;
+    min-height: 65.3%;
 }
 }
 

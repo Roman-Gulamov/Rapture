@@ -5,9 +5,9 @@
     background-size: cover;
     min-height: 750px;
 
-@media all and (max-width: 592px) {
-    min-height: 830px;
-}
+    @media all and (max-width: 592px) {
+        min-height: 900px;
+    }
 }
 
 

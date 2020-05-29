@@ -1,7 +1,9 @@
 $(document).ready(function () {
 
 $('.carousel.carousel-slider').carousel({
-    indicators: false
+    indicators: false,
+    dist: -30,
+    numVisible: 1
 });
 
 $('.moveNextCarousel').click(function(e){

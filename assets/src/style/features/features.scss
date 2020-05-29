@@ -16,18 +16,35 @@
 }
 
 &__img {
-    object-fit: cover;
-    max-width: 600px!important;
+    max-width: 600px !important;
     max-height: 300px;
-    transform: none !important;
 }
 
 &__video {
     position: absolute;
-    right: 27%;
-    top: 7%;
-    min-width: 45.4%;
-    min-height: 65.3%;
+    right: 28%;
+    top: 11%;
+    width: 460px;
+    height: 231px;
+
+    @media all and (max-width: 1260px) {
+        right: 23%;
+    }
+
+    @media all and (max-width: 501px) {
+        right: 10%;
+        top: 8%;
+        width: 299px;
+        height: 164px;
+    }
+
+    @media all and (max-width: 360px) {
+        right: 12%;
+        top: 6%;
+        width: 213px;
+        height: 121px;
+    }
+
 }
 }
 
@@ -52,6 +69,10 @@
     color: rgba($Black, 0.2);
     top: 36%;
     left: 15%;
+
+    @media all and (max-width: 1101px) {
+        display: none;
+    }    
 }
 
 .moveNextCarousel {
@@ -59,4 +80,8 @@
     color: rgba($Black, 0.2);
     top: 36%;
     right: 15%;
+
+    @media all and (max-width: 1101px) {
+        display: none;
+    }    
 }

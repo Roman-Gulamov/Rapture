@@ -30,29 +30,6 @@
     margin: 20px 23px auto 23px !important;
 }
 
-&__btn {
-    background-color: $LightGreen;
-    color: rgba($Black, 0.7);
-    letter-spacing: 1px;
-    font-family: $Medium;
-    font-size: 12px;
-
-    &:hover {
-        color: $White;
-        background-color: $LightGreen;
-    }
-
-    &:active {
-        color: $White;
-        background-color: $LightGreen;
-    }
-
-    &:focus {
-        color: $White;
-        background-color: $LightGreen;
-    }
-}
-
 &__link {
     font-family: $Medium;
     font-weight: bold;

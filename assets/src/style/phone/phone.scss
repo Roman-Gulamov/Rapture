@@ -1,0 +1,56 @@
+.phone {
+    margin-top: 20px;
+
+&__card {
+    max-width: 296px;
+    padding: 45px 25px 25px 45px;
+    margin-bottom: 5px;
+    cursor: pointer;
+
+    &:hover {
+        border: 1px solid rgba($Black, 0.1);
+        border-radius: 8px;
+
+        & .phone__title {
+            color: $Black;
+        }
+        & .phone__description {
+            color: $Black;
+        }
+    }
+}
+
+&__title {
+    font-family: $Semibold;
+    font-size: 14px;
+    color: rgba($Black, 0.6);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+&__description {
+    color: rgba($Black, 0.6);
+    line-height: 1.5;
+}
+
+&__carousel {
+    max-width: 394px !important;
+    height: 630px !important;
+    margin-top: 30px;
+    margin-bottom: 100px;
+
+    @media all and (max-width: 501px) {
+        max-width: 294px!important;
+        height: 430px!important;
+    }
+}
+
+&__screen {
+    cursor: grab;
+    
+    &:active {
+        cursor: grabbing;
+    }
+}
+}

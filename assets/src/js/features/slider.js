@@ -1,19 +1,20 @@
 $(document).ready(function () {
 
-$('.carousel.carousel-slider').carousel({
+$('.features__carousel').carousel({
     indicators: false,
     numVisible: 1
 });
 
-$('.moveNextCarousel').click(function(e){
+$('.features__moveNextCarousel').click(function(e){
     e.preventDefault();
     e.stopPropagation();
     $('.carousel').carousel('next');
 });
 
-$('.movePrevCarousel').click(function(e){
+$('.features__movePrevCarousel').click(function(e){
     e.preventDefault();
     e.stopPropagation();
     $('.carousel').carousel('prev');
 });
+
 })

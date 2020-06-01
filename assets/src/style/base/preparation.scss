@@ -4,6 +4,11 @@
 	font-family: $Light;
 }
 
+.border-bottom {
+	border-bottom: 1px solid rgba($Black, 0.1);
+	margin-top: 40px;
+}
+
 .btn {
 	border-radius: 30px;
 	font-family: $Medium;
@@ -25,8 +30,27 @@
 	}
 }
 
-.border-bottom {
-	border-bottom: 1px solid rgba($Black, 0.1);
+.btn-green {
+    background-color: $LightGreen;
+    color: rgba($Black, 0.7);
+    letter-spacing: 1px;
+    font-family: $Medium;
+    font-size: 0.7em;
+
+    &:hover {
+        color: $White;
+        background-color: $LightGreen;
+    }
+
+    &:active {
+        color: $White;
+        background-color: $LightGreen;
+    }
+
+    &:focus {
+        color: $White;
+        background-color: $LightGreen;
+    }
 }
 
 .card-action {
@@ -41,6 +65,21 @@ input {
 	&:focus {
 		outline: none;
 	}
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 55px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .overhead {
@@ -109,3 +148,31 @@ time {
 	font-size: inherit;
 }
 //! -PREPARATION- //
+
+//! MATERIALIZE CAROUSEL INDICATORS //
+.indicators {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: -22px !important;
+
+.indicator-item {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 24px 4px;
+    background-color: transparent !important;
+    border: 1px solid rgba($Gray, 0.7);
+    transition: background-color .3s;
+    border-radius: 50%;
+
+    &.active {
+        background-color: $Black !important;
+    }
+    }
+}
+//! -MATERIALIZE CAROUSEL- //

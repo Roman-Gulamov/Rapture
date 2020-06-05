@@ -1,0 +1,51 @@
+.power {
+    background-color: rgba($Black, 0.9);
+    border-radius: 30px;
+    color: $White;
+
+&__title {
+    padding-top: 70px;
+    margin-bottom: 19px;
+}
+
+&__overhead {
+    margin-bottom: 70px;
+}
+
+&__questions {
+    margin-bottom: 30px;
+}
+
+&__button {
+    width: 210px;
+    height: 40px;
+    margin-bottom: 60px;
+}
+}
+
+.advantage {
+    
+&__img {
+    @include inline-flex;
+    padding-right: 15px;
+    margin-bottom: 30px;
+    
+}
+
+&__title {
+    @include inline-flex;
+    font-size: 16px;
+    font-family: $Medium;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+&__subtitle {
+    @include inline-flex;
+    color: $Clients-Text;
+    margin-left: 75px;
+    line-height: 1.7;
+    margin-bottom: 50px;
+}
+}

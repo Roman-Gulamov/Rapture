@@ -13,7 +13,8 @@
 	border-radius: 30px;
 	font-family: $Semibold;
 	transition: all 0.6s ease;
-	box-shadow: none;
+    box-shadow: none;
+    letter-spacing: 1px;
 
 	&:active {
 		@include transform(scale(0.92));

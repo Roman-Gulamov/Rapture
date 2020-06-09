@@ -1,0 +1,64 @@
+.banner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+&__wrapper {
+    flex: 0 0 50%;
+    background-image: url(../img/banner/Reading.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    padding-left: 110px;
+
+&:nth-child(2) {
+    background-image: url(../img/banner/Coding.png);
+}
+
+    @media all and (max-width: 856px) {
+        flex: 0 0 100%;
+    }
+}
+
+&__overhead {
+    color: $Clients-Text;
+    font-family: $Semibold;
+    margin-bottom: 15px;
+    margin-top: 105px;
+}
+
+&__title {
+    color: $White;
+    line-height: 1.3;
+    margin-bottom: 40px;
+    padding-right: 186px;
+}
+
+&__btn {
+    width: 200px;
+    height: 45px;
+    border: 1px solid rgba($White, 0.4);
+    background-color: transparent;
+    font-size: 13px;
+    margin-bottom: 110px;
+
+        &:hover {
+            border: 1px solid rgba($White, 1);
+            background-color: transparent;
+            color: $White;
+        }
+
+        &:focus {
+            border: 1px solid rgba($White, 1);
+            background-color: transparent;
+            color: $White;
+        }
+
+&.long {
+    width: 250px;
+}
+}
+}
+

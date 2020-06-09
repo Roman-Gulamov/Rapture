@@ -1,4 +1,5 @@
-//= ./header/minMenu.js
-//= ./features/slider.js
-//= ./components/parallax.js
-//= ./phone/slider.js
+//= ./header/header.js
+//= ./features/features.js
+//= ./components/components.js
+//= ./phone/phone.js
+//= ./banner/banner.js

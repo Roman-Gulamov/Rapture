@@ -2,6 +2,7 @@
     background-color: rgba($Black, 0.9);
     border-radius: 30px;
     color: $White;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 &__title {
     padding-top: 70px;
@@ -21,15 +22,34 @@
     height: 40px;
     margin-bottom: 60px;
 }
-}
+} // .power
 
 .advantage {
-    
+
+&:nth-child(odd) {
+    padding-right: 30px;
+}
+
 &__img {
     @include inline-flex;
-    padding-right: 15px;
+    padding-right: 27px;
     margin-bottom: 30px;
     
+& img {
+    position: relative;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+& .wide {
+    width: 50px;
+}
+
+& .long {
+    width: 50px;
+    height: 50px;
+}
 }
 
 &__title {
@@ -42,10 +62,9 @@
 }
 
 &__subtitle {
-    @include inline-flex;
     color: $Clients-Text;
-    margin-left: 75px;
+    margin-left: 70px;
     line-height: 1.7;
     margin-bottom: 50px;
 }
-}
+} // .advantage

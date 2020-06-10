@@ -19,6 +19,7 @@
 
 ## В проекте используется и применяется:
 1. `Flexbox`
+2. `Font Awesome`
 2. `jQuery`
 3. `HTML5`
 4. `SASS`

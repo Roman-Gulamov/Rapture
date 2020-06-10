@@ -62,6 +62,18 @@
 	width: 79%;
 }
 
+.fa-twitter:hover {
+    color: $Twitter;
+}
+
+.fa-facebook-f:hover {
+    color: $Facebook;
+}
+
+.fa-google-plus-g:hover {
+    color: $Google-Plus;
+}
+
 input {
 	&:focus {
 		outline: none;

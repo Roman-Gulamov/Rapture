@@ -62,18 +62,6 @@
 	width: 79%;
 }
 
-.fa-twitter:hover {
-    color: $Twitter;
-}
-
-.fa-facebook-f:hover {
-    color: $Facebook;
-}
-
-.fa-google-plus-g:hover {
-    color: $Google-Plus;
-}
-
 input {
 	&:focus {
 		outline: none;
@@ -105,6 +93,10 @@ input {
 .h2-title {
     font-size: 2.6em;
     margin-bottom: 60px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
 }
 
 .no-shadows {

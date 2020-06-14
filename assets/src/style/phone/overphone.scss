@@ -4,6 +4,10 @@
 &__title {
     font-size: 33px;
     margin-bottom: 30px;
+
+@media all and (max-width: 1200px) {
+    text-align: center;
+}
 }
 
 &__subtitle {

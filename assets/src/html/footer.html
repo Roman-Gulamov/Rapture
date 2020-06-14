@@ -1,7 +1,8 @@
-<div class="footer border-bottom">
+<footer class="footer">
+    <section class="overfooter">
         <div class="container">
             <div class="row">
-                <section class="footer__submenu submenu">
+                <div class="overfooter__submenu submenu">
                     <ul>
                         <li>About</li>
                         <li>Careers</li>
@@ -10,15 +11,14 @@
                         <li>Enterprise</li>
                         <li>Sitemap</li>
                     </ul>
-                </section>
-            </div> <!-- row -->
-        </div> <!-- container -->
-</div> <!-- border-bottom -->
+                </div>
+            </div>  <!-- row -->
+        </div>  <!-- container -->
+    </section> <!-- overfooter -->
 
-<footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="footer__menu">
+            <section class="footer__menu">
                 <div class="footer__wrapper">
                     <div class="footer__title">Online store</div>
                     <nav class="footer__nav no-shadows">
@@ -31,6 +31,7 @@
                     </nav>
                 </div>
                 <div class="footer__wrapper">
+                    <div class="footer__title" style="visibility: hidden;">Invisible text</div>
                     <nav class="footer__nav no-shadows">
                         <a href="#">Themes</a>
                         <a href="#">Shopping cart</a>
@@ -75,7 +76,35 @@
                     <a href="#"><i class="fab fa-facebook-f footer__social"></i></a>
                     <a href="#"><i class="fab fa-google-plus-g footer__social"></i></a>
                 </div>
-            </div> <!-- footer__menu -->
+            </section> <!-- footer__menu -->
         </div> <!-- row -->
     </div> <!-- container -->
+
+    <section class="underfooter">
+        <div class="container">
+            <div class="row">
+                <div class="underfooter__wrapper">
+                    <div class="underfooter__created col s12 xl4 mb-30">
+                        <p>Created with 
+                            <i class="fas fa-heart"></i>
+                            by 
+                            <a href="#" title="Craft work"><img src="./img/footer/CraftWork.png" alt="CraftWork"></a>
+                            <span style="visibility: hidden;">CraftWork</span>
+                        </p>
+                    </div>
+                    <div class="underfooter__rights col s12 xl4 mb-30">
+                        <p>All Rights Reserved. 
+                            <a href="http://getcraftwork.com" target="_blank" title="Get craft work">http://getcraftwork.com</a>
+                        </p>
+                    </div>
+                    <div class="underfooter__powered col s12 xl4 mb-30">
+                        <p>Powered by
+                            <a href="#" title="The Rapture Startup"><span>The <span>Rapture</span> Startup</span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- container -->
+    </section> <!-- underfooter -->
 </footer>
+

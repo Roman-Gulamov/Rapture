@@ -66,5 +66,9 @@
     margin-left: 70px;
     line-height: 1.7;
     margin-bottom: 50px;
+
+    @media all and (max-width: 592px) {
+        margin-left: 0;
+    }
 }
 } // .advantage

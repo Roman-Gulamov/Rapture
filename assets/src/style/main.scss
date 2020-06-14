@@ -1,4 +1,5 @@
 @import "./base/custom.scss";
+@import "./base/font-awesome.scss";
 @import "./base/fonts.scss";
 @import "./base/preparation.scss";
 @import "./header/header.scss";
@@ -15,5 +16,7 @@
 @import "./power/power.scss";
 @import "./call/call.scss";
 @import "./banner/banner.scss";
-@import "./footer/submenu.scss";
 @import "./footer/footer.scss";
+@import "./footer/overfooter.scss";
+@import "./footer/menu.scss";
+@import "./footer/underfooter.scss";

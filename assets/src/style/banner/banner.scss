@@ -51,17 +51,21 @@
     font-size: 13px;
     margin-bottom: 110px;
 
-        &:hover {
-            border: 1px solid rgba($White, 1);
-            background-color: transparent;
-            color: $White;
-        }
+    @media all and (max-width: 592px) {
+        margin-bottom: 65px;
+    }
 
-        &:focus {
-            border: 1px solid rgba($White, 1);
-            background-color: transparent;
-            color: $White;
-        }
+    &:hover {
+        border: 1px solid rgba($White, 1);
+        background-color: transparent;
+        color: $White;
+    }
+
+    &:focus {
+        border: 1px solid rgba($White, 1);
+        background-color: transparent;
+        color: $White;
+    }
 
 &.long {
     width: 250px;

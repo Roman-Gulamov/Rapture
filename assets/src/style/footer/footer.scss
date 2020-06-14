@@ -1,34 +1,7 @@
 .footer {
     background-color: $Clients;
 
-&__menu {
-    display: block;
-}
-
-&__wrapper {
-    display: block;
-}
-
-&__title {
-    font-family: $Semibold;
-    color: $White;
-    text-transform: uppercase;
-}
-
-&__nav {
-    background-color: transparent;
-
-& a {
-    color: $Clients-Text;
+& .row {
+    margin-bottom: 0;
 }
 }
-
-&__social {
-    color: $Gray;
-    font-size: 16px;
-
-    &::before {
-        font-family: "Font Awesome 5 Brands";
-    }
-} // .footer__social
-} // .footer

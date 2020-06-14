@@ -1,0 +1,49 @@
+.footer {
+
+&__menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 110px;
+}
+
+&__wrapper {
+    height: 345px;
+}
+
+&__title {
+    font-family: $Semibold;
+    color: $White;
+    margin: 70px 0px 20px 0px;
+    text-transform: uppercase;
+}
+
+&__nav {
+    display: flex;
+    flex-direction: column;
+    line-height: 2.8;
+    background-color: transparent;
+
+& a {
+    font-size: 14px;
+    color: $Clients-Text;
+    transition: color 0.2s ease;
+
+    &:hover {
+        color: $White;
+    }
+}
+}
+
+&__social {
+    color: $Gray;
+    font-size: 16px;
+    margin-right: 15px;
+    margin-top: 15px;
+
+    &::before {
+        font-family: "Font Awesome 5 Brands";
+    }
+} // .footer__social
+} // .footer

@@ -1,8 +1,18 @@
+.container.delete {
+    @media all and (max-width: 1000px) {
+        width: 100%;
+    }
+}
+
 .power {
     background-color: rgba($Black, 0.9);
     border-radius: 30px;
     color: $White;
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    @media all and (max-width: 502px) {
+        border-radius: 15px;
+    }
 
 &__title {
     padding-top: 70px;
@@ -35,6 +45,10 @@
     padding-right: 27px;
     margin-bottom: 30px;
     
+    @media all and (max-width: 592px) {
+        padding-right: 16px;
+    }
+
 & img {
     position: relative;
     top: 15px;

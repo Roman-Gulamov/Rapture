@@ -9,6 +9,10 @@
 
 &__title {
     padding: 0px 50px;
+
+    @media all and (max-width: 502px) {
+        padding: 0px;
+    }
 }
 
 &__text {

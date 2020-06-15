@@ -1,0 +1,80 @@
+.features {
+&__carousel {
+    position: relative;
+    margin-bottom: 20px;
+    height: 350px !important;
+
+    @media all and (max-width: 600px) {
+        height: 220px !important;
+    }   
+
+    @media all and (max-width: 500px) {
+        height: 240px !important;
+    }   
+}
+
+&__movePrevCarousel {
+    position: absolute;
+    color: rgba($Black, 0.2);
+    top: 36%;
+    left: 15%;
+
+    @media all and (max-width: 1101px) {
+        display: none;
+    }    
+}
+
+&__moveNextCarousel {
+    position: absolute;
+    color: rgba($Black, 0.2);
+    top: 36%;
+    right: 15%;
+
+    @media all and (max-width: 1101px) {
+        display: none;
+    }    
+}
+
+&__img {
+    position: relative;
+    background-image: url(../img/features/IPhone.png);
+    background-size: cover;
+    background-size: 100% 100%;
+    margin: auto;
+    width: 55%;
+    height: 79%;
+    cursor: grab;
+
+    @media all and (max-width: 1140px) {
+        height: 65%;
+        width: 67%;
+    }  
+
+    @media all and (max-width: 970px) {
+        width: 79%;
+    }  
+
+    @media all and (max-width: 700px) {
+        height: 55%;
+        width: 100%;
+    }  
+
+    @media all and (max-width: 500px) {
+        height: 45%;
+        width: 100%;
+    }  
+    
+    &:active {
+        cursor: grabbing;
+    }
+}
+
+&__video {
+    position: absolute;
+    left: 11%;
+    top: 15%;
+    width: 78%;
+    max-width: 460px;
+    height: 78%;
+}
+}

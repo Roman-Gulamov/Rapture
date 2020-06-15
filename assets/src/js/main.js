@@ -1,3 +1,4 @@
+//= ./scrollTo/scrollTo.js
 //= ./header/header.js
 //= ./features/features.js
 //= ./components/components.js

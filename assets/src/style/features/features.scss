@@ -14,35 +14,4 @@
     margin-top: 20px;
     font-size: 18px;
 }
-
-&__img {
-    max-width: 600px !important;
-    max-height: 300px;
-}
-
-&__video {
-    position: absolute;
-    right: 28%;
-    top: 11%;
-    width: 460px;
-    height: 231px;
-
-    @media all and (max-width: 1260px) {
-        right: 23%;
-    }
-
-    @media all and (max-width: 501px) {
-        right: 10%;
-        top: 8%;
-        width: 299px;
-        height: 164px;
-    }
-
-    @media all and (max-width: 360px) {
-        right: 12%;
-        top: 6%;
-        width: 213px;
-        height: 121px;
-    }
-}
 }

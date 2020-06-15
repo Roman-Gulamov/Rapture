@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
 $('.features__carousel').carousel({
+    fullWidth: true,
     indicators: false,
     numVisible: 1
 });

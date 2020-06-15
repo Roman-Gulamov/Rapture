@@ -39,17 +39,17 @@
     font-size: 0.7em;
 
     &:hover {
-        color: $White;
+        color: rgba($Black, 0.7);
         background-color: $LightGreen;
     }
 
     &:active {
-        color: $White;
+        color: rgba($Black, 0.7);
         background-color: $LightGreen;
     }
 
     &:focus {
-        color: $White;
+        color: rgba($Black, 0.7);
         background-color: $LightGreen;
     }
 }

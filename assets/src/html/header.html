@@ -1,21 +1,32 @@
 <header class="header">
     <div class="container">
         <div class="row">
-            <div class="header__top">
+            <nav class="header__top no-shadows">
                 <div>
-                    <a href="#" class="header__logo" title="The Rapture Startup">The <span>Rapture</span> Startup</a>
-                    <nav class="nav no-shadows">
-                        <a href="#features">Features</a>
-                        <a href="#pricing">Pricing</a>
-                        <a href="#blog">Blog</a>
-                        <a href="#more">More</a>
-                    </nav>
+                    <a href="#!" class="header__logo" title="The Rapture Startup">The <span>Rapture</span> Startup</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="nav no-shadows hide-on-med-and-down">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#more">More</a></li>
+                    </ul>
+                    <ul id="mobile-demo" class="sidenav">
+                        <div class="autorisation">
+                            <button class="sidenav__login btn">Login</button>
+                            <button class="sidenav__ready btn">Get Started</button>
+                        </div>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#more">More</a></li>
+                    </ul>
                 </div>
-                <div class="autorisation">
+                <div class="autorisation active">
                     <button class="autorisation__login btn">Login</button>
                     <button class="autorisation__ready btn">Get Started</button>
                 </div>
-            </div>  
+            </nav>  
             <div class="header__middle center">
                 <h1 class="header__title">
                     Every Great Business 

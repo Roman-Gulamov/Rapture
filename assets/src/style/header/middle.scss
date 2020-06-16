@@ -3,6 +3,10 @@
     @include flex;
     flex-direction: column;
     margin-top: 90px;
+
+    @media all and (max-width: 993px) {
+        margin-top: 60px;
+    }
 }
 
 &__title {
@@ -19,10 +23,10 @@
     font-size: 14px;
     color: rgba($Gray, 0.8);
     text-decoration: underline;
-    transition: color 0.4s ease;
+    transition: color 0.3s ease;
 
     &:hover {
-        color: rgba($Gray, 1);
+        color: rgba($White, 0.6);
     }
 }
 

@@ -1,9 +1,11 @@
 $(document).ready(function () {
-
+    
     $("a").click(function () {
         if ($(this).attr("href") == 'Previo') {
             return;
         } else if ($(this).attr("href") == 'Siguiente') {
+            return;
+        } else if($(this).attr("href") == '#') {
             return;
         } else {
             var elementClick = $(this).attr("href");

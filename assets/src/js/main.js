@@ -1,4 +1,5 @@
-//= ./scrollTo/scrollTo.js
+//= ./scroll/scrollTo.js
+//= ./scroll/scrollUp.js
 //= ./header/header.js
 //= ./features/features.js
 //= ./components/components.js

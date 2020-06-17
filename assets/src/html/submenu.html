@@ -8,9 +8,10 @@
                     <a href="#blog"><li>Customers</li></a>
                     <a href="#footer"><li>Contacts</li></a>
                 </ul>
-                <form action="#" method="#" class="subscribe">
+                <form action="../src/php/mail.php" method="POST" class="subscribe">
                     <label for="subscribe" class="subscribe__text">Stay in Touch</label>
-                    <input type="mail" id="subscribe" class="subscribe__mail" placeholder="Subscribe our newsletters">
+                    <input type="email" name="email" id="subscribe" class="subscribe__mail" placeholder="Subscribe our newsletters" required
+                            autocomplete="on" pattern="(^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$)">
                     <button type="submit" class="subscribe__button btn">Submit</button>
                 </form>
             </section>

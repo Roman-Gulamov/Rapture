@@ -66,6 +66,7 @@
 }
 
 &__ready {
+    display: flex;
     font-size: 11px;
     background-color: rgba($White, 1);
     color: rgba($Black, 0.8);
@@ -84,6 +85,12 @@
 
 & .autorisation {
     margin-top: 5%;
+
+& a {
+    &:hover {
+        background-color: transparent;
+    }
+}
 }
 
 &__login {
@@ -94,36 +101,107 @@
     padding: 0 23px;
 
     &:hover {
-        background-color: rgba($Gray, 1);
+        background-color: rgba($Gray, 0.8);
     }
 
     &:active {
-        background-color: rgba($Gray, 1);
+        background-color: rgba($Gray, 0.8);
     }
 
     &:focus {
-        background-color: rgba($Gray, 1);
+        background-color: rgba($Gray, 0.8);
     }
 }
 
 &__ready {
+    display: flex;
     font-size: 11px;
     background-color: rgba( $Gray, 0.8);
     margin-left: 15px;
     padding: 0 26px;
 
     &:hover {
-        background-color: rgba($Gray, 1);
+        background-color: rgba($Gray, 0.8);
     }
 
     &:active {
-        background-color: rgba($Gray, 1);
+        background-color: rgba($Gray, 0.8);
     }
 
     &:focus {
-        background-color: rgba($Gray, 1);
+        background-color: rgba($Gray, 0.8);
     }
 }
 } // .sidenav
+
+
+#full-login.dropdown-content {
+    height: 184px !important;
+    border: 1px solid rgba($White, 0.2);
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 15px;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar { 
+        width: 0;
+    }
+
+& input {
+    caret-color: $Gray;
+    border-radius: 15px !important;
+    color: $White;
+    background-color: transparent;
+}
+
+& input[type=submit] {
+    background-color: rgba($White, 0.6);
+}
+
+& input[type=button] {
+    background-color: rgba($White, 0.6);
+}
+}
+
+#mobile-login.dropdown-content {
+    height: 184px !important;
+    min-width: 95px;
+    border: 1px solid rgba($White, 0.2);
+    background-color: rgba($Gray, 0.9);
+    box-shadow: none;
+    border-radius: 15px;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar { 
+        width: 0;
+    }
+
+& form {
+    &:focus {
+        outline: none;
+    }
+}
+
+& input {
+    caret-color: $Gray;
+    border-radius: 15px !important;
+    color: rgba($Black, 0.8);
+    background-color: transparent;
+
+    &::-webkit-input-placeholder {
+        color: rgba($Black, 0.7);
+    }
+}
+
+& input[type=submit] {
+    background-color: rgba($Green, 0.9);
+    color: rgba($Black, 0.6);
+}
+
+& input[type=button] {
+    background-color: rgba($Green, 0.9);
+    color: rgba($Black, 0.6);
+}
+}
 
 

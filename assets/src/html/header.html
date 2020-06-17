@@ -3,7 +3,7 @@
         <div class="row">
             <nav class="header__top no-shadows">
                 <div>
-                    <a href="#!" class="header__logo" title="The Rapture Startup">The <span>Rapture</span> Startup</a>
+                    <a href="#" class="header__logo" title="The Rapture Startup">The <span>Rapture</span> Startup</a>
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul class="nav no-shadows hide-on-med-and-down">
                         <li><a href="#features">Features</a></li>
@@ -13,8 +13,19 @@
                     </ul>
                     <ul id="mobile-demo" class="sidenav">
                         <div class="autorisation">
-                            <button class="sidenav__login btn">Login</button>
-                            <button class="sidenav__ready btn">Get Started</button>
+                            <button class="sidenav__login btn dropdown-trigger username" data-target='mobile-login'>Login</button>
+                                <div id='mobile-login' class='dropdown-content'>
+                                    <form action="../src/php/login.php" method="POST">
+                                        <input type="text" name="login" required pattern="(^[а-яА-ЯёЁa-zA-Z0-9]+$)" maxlength="100"
+                                            placeholder="User Name">
+                                        <input type="password" name="password" pattern="(^[а-яА-ЯёЁa-zA-Z0-9]+$)" maxlength="100"
+                                            required="" placeholder="Password">
+                                        <input type="submit" class="btn-green btn" value="Log me in.">
+                                    </form>
+                                </div>
+                            <a href="#trial">
+                                <button class="sidenav__ready btn">Get Started</button>
+                            </a> 
                         </div>
                         <li><a href="#features">Features</a></li>
                         <li><a href="#pricing">Pricing</a></li>
@@ -23,8 +34,17 @@
                     </ul>
                 </div>
                 <div class="autorisation active">
-                    <button class="autorisation__login btn">Login</button>
-                    <button class="autorisation__ready btn">Get Started</button>
+                    <button class="autorisation__login btn dropdown-trigger username" data-target='full-login'>Login</button>
+                        <div id='full-login' class='dropdown-content'>
+                            <form action="../src/php/login.php" method="POST">
+                                <input type="text" name="login" required pattern="(^[а-яА-ЯёЁa-zA-Z0-9]+$)" maxlength="100"
+                                    placeholder="User Name">
+                                <input type="password" name="password" pattern="(^[а-яА-ЯёЁa-zA-Z0-9]+$)" maxlength="100"
+                                    required="" placeholder="Password">
+                                <input type="submit" class="btn-green btn" value="Log me in.">
+                            </form>
+                        </div>
+                    <a href="#trial"><button class="autorisation__ready btn">Get Started</button></a>
                 </div>
             </nav>  
             <div class="header__middle center">
@@ -43,7 +63,7 @@
                     <br/> 
                     business you’ve always dreamed of</p>
                 <a href="#power" class="header__mouse"></a>
-            </div>
+            </div> <!-- header__middle -->
         </div> <!-- row -->
     </div>  <!-- container -->
 </header>

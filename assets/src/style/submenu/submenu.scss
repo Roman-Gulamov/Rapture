@@ -66,12 +66,13 @@
     position: absolute;
     top: -18px;
     right: -18px;
-    width: 370px;
-    height: 50px;
+    box-sizing: border-box !important;
+    width: 370px !important;
+    height: 50px !important;
     font-family: $Medium;
-    border: 1px solid rgba($Black, 0.2);
-    border-radius: 35px;
-    padding-left: 25px;
+    border: 1px solid rgba($Black, 0.2) !important;
+    border-radius: 35px !important;
+    padding-left: 25px !important;
 
     @media all and (max-width: 931px) {
         position: static;

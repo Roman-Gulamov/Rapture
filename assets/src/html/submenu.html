@@ -8,13 +8,22 @@
                     <a href="#blog"><li>Customers</li></a>
                     <a href="#footer"><li>Contacts</li></a>
                 </ul>
-                <form action="../src/php/mail.php" method="POST" class="subscribe">
+                <form class="subscribe" name="subscribe">
                     <label for="subscribe" class="subscribe__text">Stay in Touch</label>
                     <input type="email" name="email" id="subscribe" class="subscribe__mail" placeholder="Subscribe our newsletters" required
                             autocomplete="on" pattern="(^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$)">
-                    <button type="submit" class="subscribe__button btn">Submit</button>
+                    <button type="submit" class="subscribe__button btn modal-trigger" data-target="thanks">Submit</button>
+                    <div id="thanks" class="modal modal-fixed-footer">
+                        <div class="modal-content">
+                            <h4 class="center">Спасибо за подписку!</h4>
+                            <div><img src="./img/submenu/subscribe.png" alt="subscribe"></div>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Продолжить</a>
+                        </div>
+                    </div> <!-- thanks -->
                 </form>
-            </section>
+            </section> <!-- submenu -->
         </div> <!-- row -->
     </div> <!-- container -->
 </div> <!-- border-bottom -->

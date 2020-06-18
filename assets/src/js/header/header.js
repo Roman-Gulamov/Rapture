@@ -5,7 +5,6 @@ $(document).ready(function () {
         closeOnClick: false,
         inDuration: 350,
         outDuration: 350
-
     });
 
     var name = $('.username');

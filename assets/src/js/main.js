@@ -2,7 +2,7 @@
 //= ./scroll/scrollTo.js
 //= ./scroll/scrollUp.js
 //= ./header/header.js
+//= ./submenu/submenu.js
 //= ./features/features.js
 //= ./components/components.js
 //= ./phone/phone.js
-//= ./banner/banner.js

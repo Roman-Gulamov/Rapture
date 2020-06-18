@@ -18,12 +18,13 @@
 
 
 ## В проекте используется и применяется:
-1. `Flexbox`
-2. `Font Awesome`
-2. `jQuery`
-3. `HTML5`
-4. `SASS`
-5. `Gulp 4`
-6. `Materialize CSS`
-7. `PHP (only with XAMPP)`
-8. `MySQL (only with XAMPP)`
+1. `Ajax (only with XAMPP)`
+2. `Flexbox`
+3. `Font Awesome`
+4. `jQuery`
+5. `HTML5`
+6. `SASS`
+7. `Gulp 4`
+8. `Materialize CSS`
+9. `PHP (only with XAMPP)`
+10. `phpMyAdmin (only with XAMPP)`

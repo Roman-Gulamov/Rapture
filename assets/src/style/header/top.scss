@@ -148,6 +148,8 @@
     }
 
 & input {
+    box-sizing: border-box;
+    padding: 0 10px;
     caret-color: $Gray;
     border-radius: 15px !important;
     color: $White;
@@ -155,10 +157,8 @@
 }
 
 & input[type=submit] {
-    background-color: rgba($White, 0.6);
-}
-
-& input[type=button] {
+    font-size: .7em;
+    padding: 0 16px;
     background-color: rgba($White, 0.6);
 }
 }
@@ -183,6 +183,8 @@
 }
 
 & input {
+    box-sizing: border-box;
+    padding: 0 8px;
     caret-color: $Gray;
     border-radius: 15px !important;
     color: rgba($Black, 0.8);
@@ -194,11 +196,8 @@
 }
 
 & input[type=submit] {
-    background-color: rgba($Green, 0.9);
-    color: rgba($Black, 0.6);
-}
-
-& input[type=button] {
+    font-size: .7em;
+    padding: 0 16px;
     background-color: rgba($Green, 0.9);
     color: rgba($Black, 0.6);
 }

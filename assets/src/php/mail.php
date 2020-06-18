@@ -6,5 +6,5 @@ $email = filter_var(trim($_POST['email']), FILTER_SANITIZE_STRING);
     $mysql->query("INSERT INTO `email` (`email`) VALUES('$email')");
     $mysql->close ();
 
-    header('location: http://localhost/rapture/assets/build');
+    // header('location: http://localhost/rapture/assets/build');
 ?>

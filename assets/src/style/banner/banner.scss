@@ -46,6 +46,7 @@
 &__btn {
     width: 200px;
     height: 45px;
+    padding: 3px;
     border: 1px solid rgba($White, 0.4);
     background-color: transparent;
     font-size: 13px;
@@ -70,6 +71,6 @@
 &.long {
     width: 250px;
 }
-}
-}
+} // .banner__btn
+} // .banner
 

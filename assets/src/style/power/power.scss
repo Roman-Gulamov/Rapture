@@ -30,6 +30,7 @@
 &__button {
     width: 210px;
     height: 40px;
+    padding: 3px;
     margin-bottom: 60px;
 }
 } // .power
@@ -37,7 +38,13 @@
 .advantage {
 
 &:nth-child(odd) {
-    padding-right: 30px;
+    padding-right: 20px;
+}
+
+&:nth-child(even) {
+    @media all and (max-width: 592px) {
+        padding-right: 0px;
+    }
 }
 
 &__img {
@@ -46,7 +53,7 @@
     margin-bottom: 30px;
     
     @media all and (max-width: 592px) {
-        padding-right: 16px;
+        padding-right: 12px;
     }
 
 & img {

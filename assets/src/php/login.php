@@ -30,5 +30,5 @@ if ($mysql->connect_errno) {
         }
 $mysql->close ();
 
-    header('location: http://localhost/rapture/assets/build');
+    header('location: http://192.168.0.101/rapture/assets/build/');
 ?>

@@ -15,10 +15,11 @@
 }
 
 &__btn {
-    background-color: rgba($Black, 0.9);
-    color: rgba($White, 0.9);
     width: 225px;
     height: 50px;
+    padding: 7px;
+    background-color: rgba($Black, 0.9);
+    color: rgba($White, 0.9);
     font-size: 12px;
     
     &:hover {
@@ -31,6 +32,6 @@
         color: $White;
     }
 }
-}
+} // .call
 
 

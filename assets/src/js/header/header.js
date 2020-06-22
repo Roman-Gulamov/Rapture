@@ -7,9 +7,7 @@ $(document).ready(function () {
         outDuration: 350
     });
 
-    var name = $('.username');
-
     if ($.cookie('user')) { 
-        name.text($.cookie('user'));
+        $('.username').text($.cookie('user'));
     }
 })

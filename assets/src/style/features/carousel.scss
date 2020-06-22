@@ -20,7 +20,8 @@
     left: 15%;
 
     @media all and (max-width: 1101px) {
-        display: none;
+        top: 39%;
+        left: 0;
     }    
 }
 
@@ -31,7 +32,8 @@
     right: 15%;
 
     @media all and (max-width: 1101px) {
-        display: none;
+        top: 38.9%;
+        right: 0;
     }    
 }
 
@@ -77,4 +79,4 @@
     max-width: 460px;
     height: 78%;
 }
-}
+} // .features

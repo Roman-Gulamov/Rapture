@@ -12,11 +12,16 @@
         flex-wrap: wrap;
         margin: 40px 0px 28px 0px;
 
-        & li {
+        & li a {
+            line-height: 2;
             font-family: $Light;
             font-size: 14px;
             margin-left: 15px;
             color: rgba($White, 0.7);
+
+            @media all and (max-width: 501px) {
+                margin-left: 5px;
+            }
 
             &:hover {
                 color: rgba($White, 1);

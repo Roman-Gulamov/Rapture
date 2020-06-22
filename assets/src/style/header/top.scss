@@ -26,7 +26,7 @@
     font-weight: normal;
 }
 }
-}
+} // .header
 
 .nav {
     @include inline-flex;
@@ -77,7 +77,6 @@
 
 
 .sidenav {
-
 & a:first-child {
     margin-top: 5%;
     font-size: 20px !important;
@@ -111,14 +110,14 @@
     &:focus {
         background-color: rgba($Gray, 0.8);
     }
-}
+} // .sidenav__login
 
 &__ready {
-    display: flex;
-    font-size: 11px;
-    background-color: rgba( $Gray, 0.8);
-    margin-left: 15px;
-    padding: 0 26px;
+    display: flex !important;
+    font-size: 11px !important;
+    background-color: rgba( $Gray, 0.8) !important;
+    margin-left: 15px !important;
+    padding: 0 26px !important;
 
     &:hover {
         background-color: rgba($Gray, 0.8);
@@ -161,6 +160,19 @@
     padding: 0 16px;
     background-color: rgba($White, 0.6);
 }
+} // #full-login.dropdown-content
+
+#mobile-demo {
+& .autorisation a{
+    padding: 0 15px !important;
+    margin: auto;
+    height: 36px;
+    line-height: 3.4;
+
+    &:hover {
+        color: rgba($Black, 0.8);
+    }
+}
 }
 
 #mobile-login.dropdown-content {
@@ -201,6 +213,6 @@
     background-color: rgba($Green, 0.9);
     color: rgba($Black, 0.6);
 }
-}
+} // #mobile-login.dropdown-content
 
 

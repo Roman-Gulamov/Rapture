@@ -68,14 +68,18 @@
         top: 15%;
         left: 42%;
     }
-}
-
-}
+} // .header__mouse
+} // .header
 
 .middle__btn {
     color: $Black;
     background-color: $White;
-    padding: 0 50px;
+    padding: 10px 50px;
     height: 50px;
     line-height: 1.8;
+
+    @media all and (max-width: 508px) {
+        line-height: 1.5;
+        padding: 5px 50px;
+    }
 }

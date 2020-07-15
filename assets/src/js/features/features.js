@@ -17,4 +17,4 @@ $('.features__movePrevCarousel').click(function(e){
     e.stopPropagation();
     $('.carousel').carousel('prev');
 });
-})
+});

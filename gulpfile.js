@@ -140,3 +140,11 @@ gulp.task('default', gulp.series(
     'build',
     gulp.task('watch')      
 ));
+
+
+var ghPages = require('gulp-gh-pages');
+
+gulp.task('deploy', function() {
+    return gulp.src('./build/**/*')
+        .pipe(ghPages());
+    });

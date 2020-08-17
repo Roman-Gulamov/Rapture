@@ -11,6 +11,8 @@
   "dependencies": {
     "jquery": "^3.5.1",
     "jquery.cookie": "^1.4.1",
+    "lodash": "^4.17.20",
+    "lodash.template": "^4.5.0",
     "materialize-css": "^1.0.0-rc.2",
     "popper.js": "^1.14.7",
     "serialize-javascript": "^4.0.0"

@@ -12,7 +12,8 @@
     "jquery": "^3.5.1",
     "jquery.cookie": "^1.4.1",
     "materialize-css": "^1.0.0-rc.2",
-    "popper.js": "^1.14.7"
+    "popper.js": "^1.14.7",
+    "serialize-javascript": "^4.0.0"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",

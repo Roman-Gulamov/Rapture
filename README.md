@@ -1,30 +1,7 @@
-# Перед стартом необходимо:
-* Открыть ***командную строку:***
-    > `Win + R`
-    >>Ввести `'cmd' + Enter`
->                   
-* Убедиться, что у вас установлена система контроля версий ***Git***, введя в консоль `git --version`
-    >Если вы увидели версию, например, _2.25.1_, то можно ***продолжать***.
-    >>Если же ***нет***, то перейдите по ссылке для установки на [Windows](https://gitforwindows.org/) или [MAC.](https://git-scm.com/download/mac)
-
 ## Инструкция для старта проекта:
 
-1. ***Склонировать*** данный репозиторий с любого удобного для вас терминала:
-    > `git clone https://github.com/Roman-Gulamov/Rapture.git`
->                       
-2. Открыть `командную строку`, указав в качестве дериктории `Rapture` и ввести в ней команду `Gulp`
+1. `git clone https://github.com/Roman-Gulamov/Rapture.git`
 
-* Данная команда соберёт весь проект, после чего в папке `**/assets/build` вы найдёте `index.html` файл, который нужно будет запустить для просмотра проекта.  
+2. `Gulp`
 
-
-## В проекте используется и применяется:
-1. `Ajax (only with XAMPP)`
-2. `Flexbox`
-3. `Font Awesome`
-4. `jQuery`
-5. `HTML5`
-6. `SASS`
-7. `Gulp 4`
-8. `Materialize CSS`
-9. `PHP (only with XAMPP)`
-10. `phpMyAdmin (only with XAMPP)`
+3. `**/assets/build/index.html`

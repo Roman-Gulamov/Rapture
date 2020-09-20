@@ -1,0 +1,115 @@
+.submenu {
+    height: 53px;
+    @include flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+    
+    @media all and (max-width: 1043px) {
+        height: 100px;
+    }
+
+& ul {
+    @include inline-flex;
+    justify-content: space-between;
+    color: $Black;
+
+    @media all and (max-width: 931px) {
+        margin: auto;
+    }
+
+& li a{
+    font-family: $Regular;
+    margin-right: 30px;
+    cursor: pointer;
+    font-size: 0.94em; //14px
+    color: rgba($Black, 0.7);
+    font-weight: bold;
+    transition: color 0.4s ease;
+
+    @media all and (max-width: 501px) {
+        margin-right: 8px;
+    }
+
+    &:hover {
+        color: rgba($Black, 1);
+    }
+} // .submenu li
+} // .submenu ul
+} // .submenu
+
+
+.subscribe {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin-bottom: 10px;
+
+    @media all and (max-width: 931px) {
+        margin: auto;
+    }
+
+&__text {
+    position: absolute;
+    right: 359px;
+    width: 100px;
+    font-family: $Bold;
+    font-size: 0.94em; //14px
+    color: $Black;
+
+    @media all and (max-width: 1022px) {
+        display: none;
+    }
+}
+
+&__mail {
+    position: absolute;
+    top: -18px;
+    right: -18px;
+    box-sizing: border-box !important;
+    width: 370px !important;
+    height: 50px !important;
+    font-family: $Medium;
+    border: 1px solid rgba($Black, 0.2) !important;
+    border-radius: 35px !important;
+    padding-left: 25px !important;
+
+    @media all and (max-width: 931px) {
+        position: static;
+        width: 320px !important;
+        margin-top: 10px !important;
+    }
+
+    &::placeholder {
+        font-size: 14px;
+        color: rgba($Black, 0.4);
+        overflow: visible;
+    }
+}
+
+&__button {
+    display: inline-block;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    color: rgba($White, 0.85);
+    padding: 0px 25px;
+    font-size: 11px;
+    background-color: $Black;
+
+    @media all and (max-width: 931px) {
+        top: 17px;
+        right: 5px;
+    }
+
+	&:hover {
+        color: $White;
+		background-color: $Black;
+	}
+
+	&:focus {
+        color: $White;
+		background-color: $Black;
+	}
+} // .subscribe__button
+} // .subscribe

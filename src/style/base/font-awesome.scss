@@ -1,0 +1,37 @@
+.fa-twitter {
+    transition: color 0.2s ease;
+
+    &:hover {
+        color: $Twitter;
+    }
+}
+
+.fa-facebook-f {
+    transition: color 0.2s ease;
+
+    &:hover {
+        color: $Facebook;
+    }
+}
+
+.fa-google-plus-g {
+    transition: color 0.5s ease;
+
+    &:hover {
+        color: $Google-Plus;
+    }
+}
+
+.fa-heart {
+    color: $Heart;
+    
+    &::before {
+        font-family: "Font Awesome 5 Free";
+    }
+}
+
+.fa-angle-up {
+    &::before {
+        font-family: "Font Awesome 5 Free";
+    }
+}

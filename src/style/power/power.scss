@@ -1,0 +1,95 @@
+.container.delete {
+    @media all and (max-width: 1000px) {
+        width: 100%;
+    }
+}
+
+.power {
+    background-color: rgba($Black, 0.9);
+    border-radius: 30px;
+    color: $White;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    @media all and (max-width: 502px) {
+        border-radius: 15px;
+    }
+
+&__title {
+    padding-top: 70px;
+    margin-bottom: 19px;
+}
+
+&__overhead {
+    margin-bottom: 70px;
+}
+
+&__questions {
+    margin-bottom: 30px;
+}
+
+&__button {
+    width: 210px;
+    height: 40px;
+    padding: 3px;
+    margin-bottom: 60px;
+}
+} // .power
+
+.advantage {
+
+&:nth-child(odd) {
+    padding-right: 20px;
+}
+
+&:nth-child(even) {
+    @media all and (max-width: 592px) {
+        padding-right: 0px;
+    }
+}
+
+&__img {
+    @include inline-flex;
+    padding-right: 27px;
+    margin-bottom: 30px;
+    
+    @media all and (max-width: 592px) {
+        padding-right: 12px;
+    }
+
+& img {
+    position: relative;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+& .wide {
+    width: 50px;
+}
+
+& .long {
+    width: 50px;
+    height: 50px;
+}
+}
+
+&__title {
+    @include inline-flex;
+    font-size: 16px;
+    font-family: $Medium;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+&__subtitle {
+    color: $Clients-Text;
+    margin-left: 70px;
+    line-height: 1.7;
+    margin-bottom: 50px;
+
+    @media all and (max-width: 592px) {
+        margin-left: 0;
+    }
+}
+} // .advantage

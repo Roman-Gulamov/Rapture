@@ -1,0 +1,14 @@
+.header {
+    background-image: url('../../src/assets/img/header/Bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 750px;
+
+    @media all and (max-width: 592px) {
+        min-height: 900px;
+    }
+}
+
+
+

@@ -1,0 +1,85 @@
+.header {
+&__middle {
+    @include flex;
+    flex-direction: column;
+    margin-top: 90px;
+
+    @media all and (max-width: 993px) {
+        margin-top: 60px;
+    }
+}
+
+&__title {
+    font-size: 3.9em; //62px
+    color: $White;
+}
+
+&__button {
+    margin-top: 60px;
+}
+
+&__questions {
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgba($Gray, 0.8);
+    text-decoration: underline;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: rgba($White, 0.6);
+    }
+}
+
+&__text {
+    margin-top: 65px;
+    font-size: 1.6em; //26px
+    line-height: 36px;
+    color: rgba($White, 0.8) !important;
+}
+
+&__mouse {
+    position: relative;
+    width: 20px;
+    height: 36px;
+    border: 2px solid rgba($Gray, 0.3);
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+    margin-top: 45px;
+    transition: all 0.5s ease;
+
+    &:hover {
+        border: 2px solid rgba($Gray, 1);
+    }
+
+    &:active {
+        @include transform(scale(0.7));
+        border: 2px solid rgba($Gray, 1);
+    }
+
+
+    &::after {
+        content: "\00a0";
+        position: absolute;
+        background-color: $White;
+        color: $White;
+        width: 2px;
+        height: 7px;
+        top: 15%;
+        left: 42%;
+    }
+} // .header__mouse
+} // .header
+
+.middle__btn {
+    color: $Black;
+    background-color: $White;
+    padding: 10px 50px;
+    height: 50px;
+    line-height: 1.8;
+
+    @media all and (max-width: 508px) {
+        line-height: 1.5;
+        padding: 5px 50px;
+    }
+}

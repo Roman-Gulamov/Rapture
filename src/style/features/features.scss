@@ -1,0 +1,17 @@
+.features {
+    position: relative;
+    margin-top: 100px;
+    border-bottom: 1px solid rgba($Black, 0.1);
+
+&__title {
+    line-height: 42px;
+    font-size: 32px;
+}
+
+&__subtitle {
+    color: rgba($Black, 0.8);
+    line-height: 25px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+}

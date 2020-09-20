@@ -1,0 +1,71 @@
+.clients {
+    background: $Clients;
+    color: $White;
+
+&__overhead {
+    font-family: $Semibold;
+    padding-top: 100px;
+}
+
+&__title {
+    padding: 0px 50px;
+
+    @media all and (max-width: 502px) {
+        padding: 0px;
+    }
+}
+
+&__text {
+    position: relative;
+    font-size: 16px;
+    line-height: 1.4;
+    color: rgba($White, 0.6);
+    border: 1px solid rgba($Clients-Text, 0.22);
+    border-radius: 10px;
+
+    &::after {
+    content: '';
+    height: 15px;
+    width: 15px;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+    position: absolute;
+    border: 1px solid;
+    background-color: $Clients;
+    transform: translateY(-50%) rotate(135deg);
+    border-color: rgba($Clients-Text, 0.22) rgba($Clients-Text, 0.22) transparent transparent;
+    }
+
+& p {
+    text-align: center;
+    padding: 30px;
+}
+
+& div {
+    text-align: center;
+}
+}
+
+&__img {
+    width: 62px;
+    height: 62px;
+    border-radius: 50px;
+    margin-top: 25px;
+}
+
+&__name {
+    font-size: 20px;
+    margin-top: 18px;
+}
+
+&_position {
+    margin-top: 12px;
+    margin-bottom: 80px;
+    color: $Clients-Text;
+    font-family: $Medium;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+} // .clients

@@ -4,4 +4,4 @@
 
 2. `Gulp`
 
-3. `**/assets/build/index.html`
+3. `**/build/index.html`

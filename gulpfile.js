@@ -40,7 +40,7 @@ var gulp = require('gulp'),
     jpegrecompress = require('imagemin-jpeg-recompress'), // плагин для сжатия jpeg	
     pngquant = require('imagemin-pngquant'), // плагин для сжатия png
     rimraf = require('gulp-rimraf'), // плагин для удаления файлов и каталогов
-    rename = require('gulp-rename');
+    rename = require('gulp-rename')
 
 // сбор html
 gulp.task('html:build', function () {
